@@ -31,6 +31,10 @@ def init_db():
         """)
 
 
+# Ensure the DB and table exist on every worker start (Render uses gunicorn).
+init_db()
+
+
 @app.route("/")
 def index():
     return render_template("index.html")
@@ -58,6 +62,7 @@ def search():
         )
 
     now = datetime.now(JST).strftime("%Y-%m-%d %H:%M:%S")
+    init_db()
     with get_db() as conn:
         conn.execute(
             "INSERT INTO history (query, matched_band, results, created_at) VALUES (?, ?, ?, ?)",
@@ -69,6 +74,7 @@ def search():
 
 @app.route("/history")
 def history():
+    init_db()
     with get_db() as conn:
         rows = conn.execute(
             "SELECT * FROM history ORDER BY id DESC LIMIT 50"
@@ -77,5 +83,4 @@ def history():
 
 
 if __name__ == "__main__":
-    init_db()
     app.run(debug=True, host="127.0.0.1", port=5000)

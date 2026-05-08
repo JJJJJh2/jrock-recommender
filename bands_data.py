@@ -778,6 +778,504 @@ BANDS = [
         "desc": "虽然主打 J-Pop，但中田ヤスタカ的制作充满了实验电子元素，与独立音乐场景有千丝万缕的联系。",
         "similar": ["Perfume", "CAPSULE", "World's End Girlfriend"],
     },
+
+    # ============================================================
+    # Shoegaze / Dream Pop (continued)
+    # ============================================================
+    {
+        "name": "Burrrn",
+        "aliases": ["burrrn", "burn", "バーン"],
+        "tags": ["shoegaze", "noise-pop", "indie", "dream-pop"],
+        "desc": "东京单人盯鞋计划，甜美而粗粝的噪音墙包裹着朦胧的人声。",
+        "similar": ["My Dead Girlfriend", "pasteboard", "COALTAR OF THE DEEPERS", "dive"],
+    },
+    {
+        "name": "Seventeen Years Old and Berlin Wall",
+        "aliases": ["seventeen years old and berlin wall", "17 years old and berlin wall", "syoabw", "17才とベルリンの壁"],
+        "tags": ["shoegaze", "dream-pop", "indie", "female-vocal"],
+        "desc": "名古屋的梦幻盯鞋二人组，如同青春期的朦胧记忆般温柔而忧伤的音景。",
+        "similar": ["きのこ帝国 (Kinoko Teikoku)", "Oeil", "For Tracy Hyde", "溶けない名前 (Tokenai Namae)"],
+    },
+    {
+        "name": "Softsurf",
+        "aliases": ["softsurf", "soft surf", "ソフトサーフ"],
+        "tags": ["shoegaze", "dream-pop", "indie"],
+        "desc": "东京盯鞋新锐，清澈的吉他音色和梦幻的旋律线。",
+        "similar": ["yuragi", "Oeil", "RAY", "Hartfield"],
+    },
+    {
+        "name": "Texas Pandaa",
+        "aliases": ["texas pandaa", "texas panda", "テキサスパンダ"],
+        "tags": ["shoegaze", "post-rock", "indie"],
+        "desc": "北海道出身的盯鞋/后摇乐队，厚重的吉他音墙与壮大的音景设计。",
+        "similar": ["COALTAR OF THE DEEPERS", "cruyff in the bedroom", "dive", "Mono"],
+    },
+    {
+        "name": "Caucus",
+        "aliases": ["caucus", "コーカス"],
+        "tags": ["shoegaze", "dream-pop", "indie"],
+        "desc": "东京盯鞋/梦泡乐队，绵密的吉他音墙和浮游感的人声。",
+        "similar": ["dive", "Honeydip", "cruyff in the bedroom", "Luminous Orange"],
+    },
+
+    # ============================================================
+    # Math Rock (continued)
+    # ============================================================
+    {
+        "name": "宇宙コンビニ (uchu konbini)",
+        "aliases": ["uchu konbini", "uchu konbini", "宇宙コンビニ", "uchu combini", "space convenience store"],
+        "tags": ["math-rock", "emo", "indie", "progressive"],
+        "desc": "京都数学摇滚/emo三人组，复杂拍子与青春情绪的完美融合，可惜已解散。",
+        "similar": ["tricot", "the cabs", "JYOCHO", "a picture of her"],
+    },
+    {
+        "name": "JYOCHO",
+        "aliases": ["jyocho", "じょうちょ", "jyoucho"],
+        "tags": ["math-rock", "progressive", "indie", "female-vocal"],
+        "desc": "宇宙コンビニ吉他手的新计划，木吉他+长笛的独特编制的数学摇滚。",
+        "similar": ["宇宙コンビニ (uchu konbini)", "tricot", "a picture of her", "toe"],
+    },
+    {
+        "name": "paranoid void",
+        "aliases": ["paranoid void", "paranoid", "パラノイドヴォイド"],
+        "tags": ["math-rock", "instrumental", "indie", "female-vocal"],
+        "desc": "大阪全女子器乐数学摇滚三人组，跳跃的节奏与精致的吉他对话。",
+        "similar": ["tricot", "toe", "LITE", "a picture of her"],
+    },
+    {
+        "name": "chouchou merged syrups",
+        "aliases": ["chouchou merged syrups", "chouchou", "シュシュ", "cms"],
+        "tags": ["math-rock", "emo", "indie", "female-vocal"],
+        "desc": "东京 math rock/emo 三人组，复杂的节奏编排与 fragile 的人声交织。",
+        "similar": ["tricot", "宇宙コンビニ (uchu konbini)", "the cabs", "a picture of her"],
+    },
+    {
+        "name": "3nd (sand)",
+        "aliases": ["3nd", "sand", "サンド", "three n d"],
+        "tags": ["math-rock", "emo", "indie", "post-rock"],
+        "desc": "东京器乐数学摇滚/emo四人组，细腻的吉他旋律与紧凑的节奏变化。",
+        "similar": ["toe", "a picture of her", "how to count one to ten", "LITE"],
+    },
+
+    # ============================================================
+    # Post-Rock (continued)
+    # ============================================================
+    {
+        "name": "saisa",
+        "aliases": ["saisa", "サイサ"],
+        "tags": ["post-rock", "instrumental", "ambient", "indie"],
+        "desc": "东京后摇乐队，暗色调的吉他叙事与空旷的都市音景。",
+        "similar": ["Mono", "euphoria", "December", "miaou"],
+    },
+    {
+        "name": "yodaka",
+        "aliases": ["yodaka", "ヨダカ", "nightjar"],
+        "tags": ["post-rock", "instrumental", "indie"],
+        "desc": "福冈后摇四人组，温暖而内省的旋律铺陈与精密的三吉他编排。",
+        "similar": ["toe", "sgt.", "miaou", "euphoria"],
+    },
+    {
+        "name": "SHISHAMO",
+        "aliases": ["shishamo", "シシャモ", "shishamo band"],
+        "tags": ["indie", "alternative", "female-vocal", "j-rock"],
+        "desc": "神奈川出身全女子 indie rock 三人组，从高中生乐队到全国巡演，青春的真实写照。",
+        "similar": ["Chatmonchy (チャットモンチー)", "tricot", "GO!GO!7188", "ポルカドットスティングレイ (Polkadot Stingray)"],
+    },
+    {
+        "name": "フレデリック (Frederic)",
+        "aliases": ["frederic", "フレデリック", "frederic band", "furederikku"],
+        "tags": ["indie", "alternative", "dance-rock", "indie-pop"],
+        "desc": "神户出身的 indie/dance-rock 三人组，中毒性的节奏和独特的舞蹈律动。",
+        "similar": ["Base Ball Bear", "sumika", "KEYTALK", "サカナクション (sakanaction)"],
+    },
+    {
+        "name": "カネコアヤノ (Kaneko Ayano)",
+        "aliases": ["kaneko ayano", "カネコアヤノ", "ayano kaneko", "kaneko"],
+        "tags": ["indie-folk", "singer-songwriter", "indie", "female-vocal"],
+        "desc": "横滨出身的创作歌手，从 Lo-Fi 卧室民谣到 full band 编制，真实而锋利的日常诗学。",
+        "similar": ["青葉市子 (Ichiko Aoba)", "クリープハイプ (CreepHyp)", "andymori", "優河 (Yuga)"],
+    },
+
+    # ============================================================
+    # Punk / Melodic Punk / Ska Punk
+    # ============================================================
+    {
+        "name": "Hi-STANDARD",
+        "aliases": ["hi-standard", "hi standard", "high standard", "ハイスタ", "haista"],
+        "tags": ["punk", "melodic-punk", "hardcore", "ska-punk"],
+        "desc": "日本旋律朋克的开山鼻祖，英文歌词+高速三和弦，影响了整整一代朋克乐队。",
+        "similar": ["Ken Yokohama", "10-FEET", "ELLEGARDEN", "locofrank"],
+    },
+    {
+        "name": "Ken Yokohama",
+        "aliases": ["ken yokohama", "ken band", "横山健", "yokohama ken"],
+        "tags": ["punk", "melodic-punk", "indie"],
+        "desc": "Hi-STANDARD吉他手的个人计划，延续了热血旋律朋克的传统。",
+        "similar": ["Hi-STANDARD", "10-FEET", "ELLEGARDEN", "locofrank"],
+    },
+    {
+        "name": "10-FEET",
+        "aliases": ["10-feet", "10 feet", "ten feet", "テンフィート"],
+        "tags": ["punk", "melodic-punk", "alternative", "hardcore"],
+        "desc": "京都三人朋克乐队，关西腔歌词+硬核爆发力，日本朋克场景的支柱。",
+        "similar": ["Hi-STANDARD", "WANIMA", "ELLEGARDEN", "04 Limited Sazabys"],
+    },
+    {
+        "name": "HEY-SMITH",
+        "aliases": ["hey-smith", "hey smith", "ヘイスミス", "heysmith"],
+        "tags": ["ska-punk", "punk", "melodic-punk", "indie"],
+        "desc": "大阪 ska-punk 乐队，铜管齐鸣的狂欢派对，现场感染力极强。",
+        "similar": ["10-FEET", "SHANK", "Hi-STANDARD", "ROTTENGRAFFTY"],
+    },
+    {
+        "name": "WANIMA",
+        "aliases": ["wanima", "ワニマ"],
+        "tags": ["punk", "melodic-punk", "indie"],
+        "desc": "熊本出身的高速旋律朋克三人组，超快节奏+热血合唱，arena 级人气。",
+        "similar": ["10-FEET", "04 Limited Sazabys", "ELLEGARDEN", "Hi-STANDARD"],
+    },
+    {
+        "name": "04 Limited Sazabys",
+        "aliases": ["04 limited sazabys", "04", "フォーリミテッドサザビーズ", "four limited sazabys"],
+        "tags": ["punk", "melodic-punk", "indie"],
+        "desc": "名古屋旋律朋克三人组，高音主唱+跳跃感的节奏，新一代朋克场景的代表。",
+        "similar": ["WANIMA", "10-FEET", "ELLEGARDEN", "SHANK"],
+    },
+    {
+        "name": "SiM",
+        "aliases": ["sim", "シム"],
+        "tags": ["punk", "reggae-punk", "alternative", "metalcore"],
+        "desc": "湘南出身的混种朋克乐队，reggae/punk/metal 的自由切换。",
+        "similar": ["ROTTENGRAFFTY", "coldrain", "10-FEET", "Crossfaith"],
+    },
+    {
+        "name": "ROTTENGRAFFTY",
+        "aliases": ["rottengraffty", "rotten", "ロットングラフティー"],
+        "tags": ["punk", "mixture", "alternative", "hardcore"],
+        "desc": "京都发祥的混种摇滚五人组，punk/hip-hop/metal 的爆炸性融合。",
+        "similar": ["SiM", "10-FEET", "HEY-SMITH", "MAN WITH A MISSION"],
+    },
+    {
+        "name": "locofrank",
+        "aliases": ["locofrank", "loco frank", "ロコフランク"],
+        "tags": ["punk", "melodic-punk", "indie"],
+        "desc": "东京旋律朋克三人组，英文歌词+爽快的吉他旋律。",
+        "similar": ["Hi-STANDARD", "SHANK", "Ken Yokohama", "ELLEGARDEN"],
+    },
+    {
+        "name": "SHANK",
+        "aliases": ["shank", "シャンク"],
+        "tags": ["punk", "ska-punk", "melodic-punk", "indie"],
+        "desc": "长野出身的 ska-punk 四人组，高速双声轨轮流爆发的热血现场。",
+        "similar": ["HEY-SMITH", "locofrank", "10-FEET", "04 Limited Sazabys"],
+    },
+    {
+        "name": "NAMBA69",
+        "aliases": ["namba69", "namba", "ナンバ69", "難波69"],
+        "tags": ["punk", "melodic-punk", "hardcore"],
+        "desc": "Hi-STANDARD 难波章浩的个人朋克计划，更加直接的 hardcore 态度。",
+        "similar": ["Hi-STANDARD", "Ken Yokohama", "10-FEET", "locofrank"],
+    },
+    {
+        "name": "MAN WITH A MISSION",
+        "aliases": ["man with a mission", "man with a mission", "mwam", "マンウィズアミッション", "man with"],
+        "tags": ["alternative", "punk", "electronic", "indie"],
+        "desc": "狼头人身的谜之五人组，将 punk/electronic/dance 融为一体的国际化乐队。",
+        "similar": ["ROTTENGRAFFTY", "ONE OK ROCK", "coldrain", "Crossfaith"],
+    },
+
+    # ============================================================
+    # Metal / Visual Kei / Alternative Metal
+    # ============================================================
+    {
+        "name": "DIR EN GREY",
+        "aliases": ["dir en grey", "dir", "dir en grey", "ディルアングレイ"],
+        "tags": ["alternative-metal", "visual-kei", "experimental", "heavy"],
+        "desc": "日本最具国际影响力的 heavy rock 乐队之一，从视觉系到前卫金属的惊人进化。",
+        "similar": ["the GazettE", "X JAPAN", "coldrain", "Boris"],
+    },
+    {
+        "name": "X JAPAN",
+        "aliases": ["x japan", "x", "エックスジャパン", "x-japan"],
+        "tags": ["heavy-metal", "visual-kei", "orchestral", "alternative"],
+        "desc": "日本视觉系的创始者和传奇，将古典乐与重金属融合为壮大的摇滚叙事。",
+        "similar": ["LUNA SEA", "DIR EN GREY", "the GazettE", "ONE OK ROCK"],
+    },
+    {
+        "name": "LUNA SEA",
+        "aliases": ["luna sea", "ルナシー", "lunasea", "luna"],
+        "tags": ["alternative-rock", "visual-kei", "indie"],
+        "desc": "日本视觉系黄金时代的代表，暗黑美学与另类摇滚的完美融合。",
+        "similar": ["X JAPAN", "DIR EN GREY", "the GazettE", "ACIDMAN"],
+    },
+    {
+        "name": "the GazettE",
+        "aliases": ["gazette", "the gazette", "the gazette", "ガゼット"],
+        "tags": ["alternative-metal", "visual-kei", "hardcore"],
+        "desc": "名古屋出身视觉系代表，重型吉他 riffs 与暗黑美学的视觉冲击。",
+        "similar": ["DIR EN GREY", "X JAPAN", "coldrain", "FACT"],
+    },
+    {
+        "name": "Crystal Lake",
+        "aliases": ["crystal lake", "クリスタルレイク"],
+        "tags": ["metalcore", "heavy", "alternative"],
+        "desc": "东京 metalcore 代表，国际 metalcore 场景中日本的声音，重型 breakdown 和英语歌词。",
+        "similar": ["coldrain", "Crossfaith", "FACT", "Fear, and Loathing in Las Vegas"],
+    },
+    {
+        "name": "Fear, and Loathing in Las Vegas",
+        "aliases": ["fear and loathing in las vegas", "fear loathing", "las vegas", "fear loathing las vegas", "ファーアンドロージングインラスベガス"],
+        "tags": ["electronic", "post-hardcore", "alternative", "metalcore"],
+        "desc": "神户出身的 electronicore 六人组，Auto-Tune 人声+EDM+金属核的无厘头爆炸。",
+        "similar": ["Crossfaith", "coldrain", "FACT", "SiM"],
+    },
+    {
+        "name": "Girugamesh (ギルガメッシュ)",
+        "aliases": ["girugamesh", "girugamesshu", "ギルガメッシュ", "gilgamesh"],
+        "tags": ["alternative-metal", "visual-kei", "indie"],
+        "desc": "东京视觉系/alternative metal 四人组，重型 groove 与日系旋律的交错。",
+        "similar": ["the GazettE", "DIR EN GREY", "FACT", "coldrain"],
+    },
+
+    # ============================================================
+    # Folk / Neo-folk / Singer-songwriter
+    # ============================================================
+    {
+        "name": "青葉市子 (Ichiko Aoba)",
+        "aliases": ["ichiko aoba", "aoba ichiko", "青葉市子", "ichiko", "aoba"],
+        "tags": ["folk", "ambient", "neo-folk", "female-vocal"],
+        "desc": "日本 neo-folk 的代表，空灵的歌声与精致的古典吉他编织出梦幻般的音景。",
+        "similar": ["YeYe", "ハンバート ハンバート (Humbert Humbert)", "優河 (Yuga)", "matryoshka"],
+    },
+    {
+        "name": "ハンバート ハンバート (Humbert Humbert)",
+        "aliases": ["humbert humbert", "ハンバートハンバート", "humbert", "hanba"],
+        "tags": ["folk", "indie-folk", "duo"],
+        "desc": "男女双声道的温暖民谣二人组，日常生活的细腻观察与轻快的吉他旋律。",
+        "similar": ["青葉市子 (Ichiko Aoba)", "YeYe", "advantage Lucy", "Lamp"],
+    },
+    {
+        "name": "YeYe",
+        "aliases": ["yeye", "イエイエ", "yeye singer"],
+        "tags": ["indie-folk", "dream-pop", "female-vocal"],
+        "desc": "东京 indie-folk 创作歌手，温柔的呢喃与 dream-pop 质感的吉他。",
+        "similar": ["青葉市子 (Ichiko Aoba)", "ハンバート ハンバート (Humbert Humbert)", "advantage Lucy", "CQ"],
+    },
+    {
+        "name": "優河 (Yuga)",
+        "aliases": ["yuga", "優河", "yuuga"],
+        "tags": ["folk", "neo-folk", "female-vocal", "soul"],
+        "desc": "东京 neo-folk/灵魂乐创作歌手，醇厚的嗓音与 minimal 的器乐编排。",
+        "similar": ["青葉市子 (Ichiko Aoba)", "YeYe", "ハンバート ハンバート (Humbert Humbert)", "Lamp"],
+    },
+    {
+        "name": "七尾旅人 (Nanao Tabito)",
+        "aliases": ["nanao tabito", "nanao", "七尾旅人", "tabito"],
+        "tags": ["folk", "singer-songwriter", "indie"],
+        "desc": "日本 folk/singer-songwriter 的异色存在，实验性的声音探索与社会议题的直面。",
+        "similar": ["青葉市子 (Ichiko Aoba)", "World's End Girlfriend", "くるり (Quruli)", "KASHIWA Daisuke"],
+    },
+
+    # ============================================================
+    # Post-punk / New Wave / Garage
+    # ============================================================
+    {
+        "name": "ゆらゆら帝国 (Yura Yura Teikoku)",
+        "aliases": ["yura yura teikoku", "yurayura teikoku", "ゆらゆら帝国", "yurayura", "yyteikoku"],
+        "tags": ["post-punk", "psychedelic", "indie", "garage-rock"],
+        "desc": "坂本慎太郎领衔的迷幻/车库传奇，90年代日本地下摇滚的基石，解散后被恒久怀念。",
+        "similar": ["Number Girl", "ZAZEN BOYS", "Bloodthirsty Butchers", "Boris"],
+    },
+    {
+        "name": "The Birthday",
+        "aliases": ["birthday", "the birthday", "ザ・バースデイ"],
+        "tags": ["punk", "garage-rock", "indie", "alternative"],
+        "desc": "チバユウスケ (thee michelle gun elephant) 领衔的 garage punk 乐队，粗粝且浪漫的蓝领摇滚。",
+        "similar": ["ゆらゆら帝国 (Yura Yura Teikoku)", "Number Girl", "Bloodthirsty Butchers", "銀杏BOYZ (Ging Nang Boyz)"],
+    },
+    {
+        "name": "戸川純 (Jun Togawa)",
+        "aliases": ["jun togawa", "togawa jun", "戸川純", "togawa"],
+        "tags": ["new-wave", "experimental", "female-vocal", "post-punk"],
+        "desc": "日本 new wave / 实验音乐的 cult icon，从ゲルニカ到ソロ，病态美学与尖锐创意。",
+        "similar": ["P-MODEL", "Melt-Banana", "Boris", "Buffalo Daughter"],
+    },
+    {
+        "name": "P-MODEL",
+        "aliases": ["p-model", "p model", "pmodel", "ピーモデル"],
+        "tags": ["new-wave", "techno-pop", "experimental", "post-punk"],
+        "desc": "平沢進领衔的传说级 techno-pop/新浪潮乐队，日本 80 年代地下音乐的先驱。",
+        "similar": ["戸川純 (Jun Togawa)", "ヒカシュー", "Boredoms", "World's End Girlfriend"],
+    },
+    {
+        "name": "突然段ボール (Totsuzen Danball)",
+        "aliases": ["totsuzen danball", "totsuzendanball", "突然段ボール", "sudden cardboard"],
+        "tags": ["post-punk", "new-wave", "experimental", "indie"],
+        "desc": "80年代日本 post-punk / new wave 的代表，奇抜的创意与 Lo-Fi 美学的先驱。",
+        "similar": ["P-MODEL", "戸川純 (Jun Togawa)", "Boredoms", "ゆらゆら帝国 (Yura Yura Teikoku)"],
+    },
+
+    # ============================================================
+    # Indie / Alternative Rock (continued)
+    # ============================================================
+    {
+        "name": "サカナクション (sakanaction)",
+        "aliases": ["sakanaction", "sakana", "サカナクション", "sakanaction band"],
+        "tags": ["electronic", "indie", "alternative", "experimental"],
+        "desc": "北海道出身的电子/另类摇滚五人组，将 dance music 与 indie rock 无缝融合的国民级乐队。",
+        "similar": ["くるり (Quruli)", "King Gnu", "cero", "Suchmos"],
+    },
+    {
+        "name": "フジファブリック (Fujifabric)",
+        "aliases": ["fujifabric", "fuji fabric", "フジファブリック", "fujifabric band"],
+        "tags": ["indie", "alternative", "j-rock"],
+        "desc": "山梨县出身的 indie rock 乐队，纤细的旋律线与青春感满溢的歌词。",
+        "similar": ["Asian Kung-Fu Generation", "くるり (Quruli)", "Base Ball Bear", "ストレイテナー (STRAIGHTENER)"],
+    },
+    {
+        "name": "indigo la End",
+        "aliases": ["indigo la end", "indigo", "インディゴ・ラ・エンド", "indigo la"],
+        "tags": ["indie", "alternative", "city-pop", "indie-pop"],
+        "desc": "川谷絵音领衔的 indie 四人组，都会的感伤与精致的流行旋律。",
+        "similar": ["ゲスの極み乙女 (Gesu no Kiwami Otome)", "Lucky Tapes", "cero", "Suchmos"],
+    },
+    {
+        "name": "ゲスの極み乙女 (Gesu no Kiwami Otome)",
+        "aliases": ["gesu no kiwami otome", "gesu", "ゲスの極み乙女", "gesu otome", "gesu no kiwami"],
+        "tags": ["indie", "progressive", "jazz", "experimental"],
+        "desc": "川谷絵音的另一乐队，更 experimental 的编曲+爵士和声+hip-hop 律动。",
+        "similar": ["indigo la End", "King Gnu", "ZAZEN BOYS", "cero"],
+    },
+    {
+        "name": "King Gnu",
+        "aliases": ["king gnu", "kinggnu", "キングヌー"],
+        "tags": ["alternative", "indie", "experimental", "mixture"],
+        "desc": "东京四人组，将摇滚/jazz/classical/hip-hop 融为一体的次世代国民乐队。",
+        "similar": ["ゲスの極み乙女 (Gesu no Kiwami Otome)", "Suchmos", "サカナクション (sakanaction)", "cero"],
+    },
+    {
+        "name": "[Alexandros]",
+        "aliases": ["alexandros", "[alexandros]", "アレキサンドロス", "[champagne]", "champagne"],
+        "tags": ["alternative", "indie", "j-rock"],
+        "desc": "东京发祥的另类摇滚四人组，英文歌词+arena rock 的爆发力。",
+        "similar": ["ONE OK ROCK", "ELLEGARDEN", "ストレイテナー (STRAIGHTENER)", "Asian Kung-Fu Generation"],
+    },
+    {
+        "name": "ポルカドットスティングレイ (Polkadot Stingray)",
+        "aliases": ["polkadot stingray", "polkadot", "ポルカドットスティングレイ", "polca"],
+        "tags": ["indie", "alternative", "female-vocal", "j-rock"],
+        "desc": "福冈出身的 indie rock 四人组，雫的酷帅女主唱和跳跃的吉他 riff。",
+        "similar": ["tricot", "Base Ball Bear", "Asian Kung-Fu Generation", "GO!GO!7188"],
+    },
+    {
+        "name": "sumika",
+        "aliases": ["sumika", "スミカ"],
+        "tags": ["indie-pop", "indie", "alternative"],
+        "desc": "神奈川出身的 indie pop 四人组，阳光感满溢的青春旋律和温暖的合唱。",
+        "similar": ["Base Ball Bear", "フジファブリック (Fujifabric)", "Official髭男dism", "andymori"],
+    },
+    {
+        "name": "KEYTALK",
+        "aliases": ["keytalk", "キートーク"],
+        "tags": ["indie", "alternative", "j-rock"],
+        "desc": "东京 indie rock 四人组，双吉他+合成器的舞蹈感摇滚。",
+        "similar": ["Base Ball Bear", "sumika", "the pillows", "フジファブリック (Fujifabric)"],
+    },
+    {
+        "name": "the band apart",
+        "aliases": ["band apart", "the band apart", "バンドアパート", "banapa"],
+        "tags": ["indie", "alternative", "math-rock", "jazz"],
+        "desc": "东京 indie/数学摇滚四人组，精致的三吉他编排与黑人音乐律动的融合。",
+        "similar": ["tricot", "ZAZEN BOYS", "くるり (Quruli)", "mouse on the keys"],
+    },
+    {
+        "name": "SHE'S",
+        "aliases": ["she's", "shes", "シーズ"],
+        "tags": ["indie-pop", "indie", "alternative", "piano-rock"],
+        "desc": "大阪 piano-rock/indie pop 四人组，钢琴主导的清爽青春旋律。",
+        "similar": ["sumika", "Base Ball Bear", "Official髭男dism", "フジファブリック (Fujifabric)"],
+    },
+    {
+        "name": "クリープハイプ (CreepHyp)",
+        "aliases": ["creephyp", "creep hyp", "クリープハイプ", "kuripu"],
+        "tags": ["indie", "alternative", "emo"],
+        "desc": "尾崎世界観领衔的三人组，文学性极强的歌词和内省式的 indie rock。",
+        "similar": ["マカロニえんぴつ (Macaroni Enpitsu)", "indigo la End", "andymori", "Syrup16g (シロップ)"],
+    },
+    {
+        "name": "マカロニえんぴつ (Macaroni Enpitsu)",
+        "aliases": ["macaroni enpitsu", "macaroni", "マカロニえんぴつ", "makaronienpitsu", "macaroni pencil"],
+        "tags": ["indie", "alternative", "emo"],
+        "desc": "关西出身的新世代 indie rock 三人组，感伤的旋律和直击内心的日常歌词。",
+        "similar": ["クリープハイプ (CreepHyp)", "Saucy Dog", "indigo la End", "andymori"],
+    },
+    {
+        "name": "Saucy Dog",
+        "aliases": ["saucy dog", "サウシードッグ"],
+        "tags": ["indie", "alternative", "emo"],
+        "desc": "大阪 indie rock 三人组，恋爱与失恋的切ない歌词+耳熟能详的旋律。",
+        "similar": ["マカロニえんぴつ (Macaroni Enpitsu)", "クリープハイプ (CreepHyp)", "indigo la End", "andymori"],
+    },
+    {
+        "name": "Official髭男dism (Official HIGE DANDism)",
+        "aliases": ["official hige dandism", "hige dandism", "hige dandism", "official髭男dism", "ヒゲダン", "higedan"],
+        "tags": ["j-pop", "indie-pop", "alternative", "indie"],
+        "desc": "岛根县出身的钢琴 pop 四人组，从 indie 到国民级的跃升，藤原聡的旋律天赋令人惊叹。",
+        "similar": ["sumika", "Base Ball Bear", "SHE'S", "King Gnu"],
+    },
+    {
+        "name": "羊文学 (Hitsujibungaku)",
+        "aliases": ["hitsujibungaku", "hitsuji bungaku", "羊文学", "sheep literature"],
+        "tags": ["indie", "alternative", "dream-pop", "female-vocal"],
+        "desc": "东京三人 indie rock 乐队，盐塚モエカ的透明感嗓音和 dream-pop 质感的吉他。",
+        "similar": ["きのこ帝国 (Kinoko Teikoku)", "For Tracy Hyde", "CQ", "溶けない名前 (Tokenai Namae)"],
+    },
+    {
+        "name": "ドミコ (domico)",
+        "aliases": ["domico", "ドミコ"],
+        "tags": ["indie", "alternative", "noise", "experimental"],
+        "desc": "新潟出身两人组，Lo-Fi 噪音+电子节拍+后朋克态度，独特的地下美学。",
+        "similar": ["ZAZEN BOYS", "Syrup16g (シロップ)", "THE NOVEMBERS", "ゆらゆら帝国 (Yura Yura Teikoku)"],
+    },
+
+    # ============================================================
+    # Electronic / Experimental (continued)
+    # ============================================================
+    {
+        "name": "Cornelius",
+        "aliases": ["cornelius", "コーネリアス", "keigo oyamada", "小山田圭吾"],
+        "tags": ["electronic", "experimental", "shibuya-kei", "indie"],
+        "desc": "小山田圭吾的个人计划，涩谷系的核心人物，极简电子与视觉艺术的完美融合。",
+        "similar": ["CAPSULE", "Buffalo Daughter", "P-MODEL", "World's End Girlfriend"],
+    },
+    {
+        "name": "fishmans",
+        "aliases": ["fishmans", "fishmans band", "フィッシュマンズ"],
+        "tags": ["dub", "dream-pop", "electronic", "indie"],
+        "desc": "90年代传奇三人组，佐藤伸治的透明感假声+dub/dream-pop的独特融合。《LONG SEASON》是不朽名盘。",
+        "similar": ["Cornelius", "Lamp", "World's End Girlfriend", "Lucky Tapes"],
+    },
+    {
+        "name": "Buffalo Daughter",
+        "aliases": ["buffalo daughter", "buffalo", "バッファロードーター"],
+        "tags": ["electronic", "experimental", "indie", "female-vocal"],
+        "desc": "东京电子/实验三人组，将 turntable/guitar/电子节拍编织成独特的跨界音乐。",
+        "similar": ["Cornelius", "Boredoms", "matryoshka", "CAPSULE"],
+    },
+    {
+        "name": "Boredoms",
+        "aliases": ["boredoms", "ボアダムス", "bore"],
+        "tags": ["noise", "experimental", "psychedelic", "drone"],
+        "desc": "山塚アイ(EYE)领衔的噪音/实验传奇，从 hardcore 到 tribal drum circle 的疯狂进化。",
+        "similar": ["Melt-Banana", "Boris", "P-MODEL", "戸川純 (Jun Togawa)"],
+    },
+    {
+        "name": "OOIOO",
+        "aliases": ["ooioo", "オーアイオー"],
+        "tags": ["experimental", "noise", "female-vocal", "psychedelic"],
+        "desc": "Boredoms 鼓手 Yoshimi 的全女子实验摇滚计划，tribal rhythm 与噪音的迷幻之旅。",
+        "similar": ["Boredoms", "Melt-Banana", "Buffalo Daughter", "Boris"],
+    },
 ]
 
 

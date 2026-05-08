@@ -557,6 +557,13 @@ BANDS = [
         "similar": ["Number Girl", "Asian Kung-Fu Generation", "Syrup16g (シロップ)", "SUPERCAR"],
     },
     {
+        "name": "東京事変 (Tokyo Incidents)",
+        "aliases": ["tokyo incidents", "tokyo jihen", "東京事変", "东京事变", "東京事變", "jihen", "tokyojihen"],
+        "tags": ["jazz-rock", "alternative", "experimental", "progressive", "indie"],
+        "desc": "椎名林檎领衔的五人乐队，爵士/放克/摇滚的知性融合，日本 2000 年代最重要的乐队之一。",
+        "similar": ["くるり (Quruli)", "Number Girl", "ZAZEN BOYS", "Syrup16g (シロップ)", "ストレイテナー (STRAIGHTENER)"],
+    },
+    {
         "name": "銀杏BOYZ (Ging Nang Boyz)",
         "aliases": ["ging nang boyz", "銀杏ボーイズ", "ging nang", "ginnan boyz", "ギンナンボーイズ"],
         "tags": ["punk", "indie", "alternative", "noise"],

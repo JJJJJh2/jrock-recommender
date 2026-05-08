@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>搜索历史 — J-Rock Reco</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1><a href="/">J-Rock Reco</a></h1>
+    <p class="subtitle">検索履歴 / Search History</p>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/history" class="active">History</a>
+    </nav>
+  </header>
+
+  <section class="history">
+    {% if rows %}
+    <table>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Query</th>
+          <th>Matched</th>
+          <th>Recommendations</th>
+          <th>Time (JST)</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for row in rows %}
+        <tr>
+          <td>{{ row.id }}</td>
+          <td><strong>{{ row.query }}</strong></td>
+          <td>{{ row.matched_band }}</td>
+          <td>{{ row.results }}</td>
+          <td>{{ row.created_at }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    {% else %}
+    <p class="empty">暂无搜索记录。</p>
+    {% endif %}
+  </section>
+</div>
+</body>
+</html>

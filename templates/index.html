@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>J-Rock Reco — 日本摇滚推荐</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1><a href="/">J-Rock Reco</a></h1>
+    <p class="subtitle">日本ロック推薦 · Shoegaze / Emo / Math Rock / Indie</p>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/history">History</a>
+    </nav>
+  </header>
+
+  <section class="search-box">
+    <form method="POST" action="/search">
+      <input
+        type="text"
+        name="query"
+        placeholder="输入乐队名… 例：きのこ帝国 / envy / tricot"
+        value="{{ query or '' }}"
+        autocomplete="off"
+        autofocus
+      >
+      <button type="submit">検索</button>
+    </form>
+
+    {% if error %}
+    <p class="error">{{ error }}</p>
+    {% endif %}
+  </section>
+
+  {% if matched %}
+  <section class="result">
+    <div class="matched-band">
+      <h2>{{ matched.name }}</h2>
+      <p class="desc">{{ matched.desc }}</p>
+      <div class="tags">
+        {% for tag in matched.tags %}
+        <span class="tag">{{ tag }}</span>
+        {% endfor %}
+      </div>
+    </div>
+
+    {% if results %}
+    <h3>相似推荐 / Similar Bands</h3>
+    <div class="recommendations">
+      {% for band in results %}
+      <div class="band-card">
+        <h4>{{ band.name }}</h4>
+        <p>{{ band.desc }}</p>
+        <div class="tags">
+          {% for tag in band.tags %}
+          <span class="tag">{{ tag }}</span>
+          {% endfor %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    {% else %}
+    <p class="empty">暂无相似推荐。</p>
+    {% endif %}
+  </section>
+  {% endif %}
+</div>
+</body>
+</html>

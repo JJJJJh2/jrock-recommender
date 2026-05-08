@@ -1,10 +1,11 @@
 import sqlite3
 import os
+import random
 from datetime import datetime, timezone, timedelta
 
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, jsonify
 
-from bands_data import recommend, get_suggestions
+from bands_data import recommend, get_suggestions, BANDS
 
 app = Flask(__name__)
 
@@ -70,6 +71,17 @@ def search():
         )
 
     return render_template("index.html", query=query, matched=matched, results=results)
+
+
+@app.route("/random-band")
+def random_band():
+    band = random.choice(BANDS)
+    return jsonify({
+        "name": band["name"],
+        "tags": band["tags"],
+        "desc": band["desc"],
+        "similar": band.get("similar", []),
+    })
 
 
 @app.route("/history")

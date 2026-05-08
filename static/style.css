@@ -234,11 +234,81 @@ nav a.active {
   background: var(--tag-bg);
 }
 
-.empty {
+/* --- Random Band --- */
+.random-section {
   text-align: center;
+  margin-bottom: 2rem;
+  padding: 1.5rem 0;
+  border-top: 1px dashed var(--border);
+  border-bottom: 1px dashed var(--border);
+}
+
+.random-hint {
+  font-size: 0.8rem;
   color: var(--muted);
-  padding: 3rem 0;
+  margin-top: 0.5rem;
+}
+
+.random-btn {
+  padding: 0.65rem 2rem;
+  border: 2px solid var(--accent);
+  border-radius: var(--radius);
+  background: var(--card);
+  color: var(--accent);
+  font-size: 1rem;
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.random-btn:hover {
+  background: var(--accent);
+  color: #fff;
+}
+
+.random-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+#random-result {
+  margin-top: 1.25rem;
+  transition: opacity 0.15s;
+}
+
+.random-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--accent);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  text-align: left;
+  animation: fadeIn 0.35s ease;
+}
+
+.random-name {
+  font-size: 1.3rem;
+  color: var(--accent);
+  margin-bottom: 0.25rem;
+}
+
+.random-blurb {
+  font-size: 0.8rem;
+  color: var(--muted);
+  margin-bottom: 0.75rem;
+  font-style: italic;
+}
+
+.random-desc {
+  color: var(--muted);
   font-size: 0.9rem;
+  line-height: 1.8;
+}
+
+.random-similar {
+  margin-top: 0.75rem;
+  font-size: 0.8rem;
+  color: var(--muted);
 }
 
 /* --- Responsive --- */

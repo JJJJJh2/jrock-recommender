@@ -35,6 +35,12 @@
     {% endif %}
   </section>
 
+  <section class="random-section">
+    <button id="random-btn" class="random-btn">随机挖团 ✨</button>
+    <p class="random-hint">不知道听什么？来盲盒一个。</p>
+    <div id="random-result"></div>
+  </section>
+
   {% if matched %}
   <section class="result">
     <div class="matched-band">
@@ -68,5 +74,73 @@
   </section>
   {% endif %}
 </div>
+<script>
+(function() {
+  var btn = document.getElementById('random-btn');
+  var box = document.getElementById('random-result');
+  var loading = false;
+
+  var blurbs = [
+    '挖到了一个，听听看？',
+    '命运帮你选了这个——',
+    '这个团的盘值得收。',
+    '耳机一戴谁都不爱。',
+    '深夜emo指定BGM。',
+    '听过一张就回不去了。',
+    '今天是听这个的心情。',
+    '这个，真挺好的。',
+  ];
+
+  function tagBadges(tags) {
+    return tags.map(function(t) {
+      return '<span class="tag">' + t + '</span>';
+    }).join('');
+  }
+
+  function similarList(names) {
+    if (!names || !names.length) return '';
+    return '<p class="random-similar">像这些：' +
+      names.slice(0, 5).join(' / ') +
+      '</p>';
+  }
+
+  function pickBlurb() {
+    return blurbs[Math.floor(Math.random() * blurbs.length)];
+  }
+
+  btn.addEventListener('click', function() {
+    if (loading) return;
+    loading = true;
+    btn.textContent = '挖一下…';
+    btn.disabled = true;
+    box.style.opacity = '0.4';
+
+    fetch('/random-band')
+      .then(function(r) { return r.json(); })
+      .then(function(band) {
+        var html =
+          '<div class="random-card">' +
+            '<h2 class="random-name">' + band.name + '</h2>' +
+            '<p class="random-blurb">' + pickBlurb() + '</p>' +
+            '<p class="random-desc">' + band.desc + '</p>' +
+            '<div class="tags">' + tagBadges(band.tags) + '</div>' +
+            similarList(band.similar) +
+          '</div>';
+        box.innerHTML = html;
+        box.style.opacity = '1';
+        btn.textContent = '再挖一个 ✨';
+        btn.disabled = false;
+        loading = false;
+      })
+      .catch(function() {
+        box.innerHTML = '<p class="error">好像断线了，再试试？</p>';
+        box.style.opacity = '1';
+        btn.textContent = '随机挖团 ✨';
+        btn.disabled = false;
+        loading = false;
+      });
+  });
+})();
+</script>
 </body>
 </html>

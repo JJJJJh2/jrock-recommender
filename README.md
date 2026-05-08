@@ -1,7 +1,15 @@
 # J-Rock Reco
 
-Japanese rock band recommendation engine. Input a band name, get similar shoegaze / emo / math rock / indie recommendations.
+一个帮你继续深挖日摇的小网站（｡•̀ᴗ-)✧
 
+输入喜欢的乐队，
+继续发现 shoegaze / emo / math rock / post-rock 宝藏 ✨
+
+适合：
+- 半夜挖团
+- Spotify 推不出来的时候
+- 想找冷门日摇的时候
+- “听完 SUPERCAR 不知道下一步听什么” 的时候
 ## Quick Start
 
 ```bash
